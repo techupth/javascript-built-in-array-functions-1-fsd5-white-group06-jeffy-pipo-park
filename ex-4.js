@@ -7,7 +7,9 @@ const todos = [
 ];
 
 function getCompletedTodo(todos) {
-  // Start coding here
+  let test = todos.filter((topicComplete) => topicComplete.completed == true);
+  console.log(test);
+  return test;
 }
 
 getCompletedTodo(todos);
